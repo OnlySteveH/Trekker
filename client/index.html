@@ -14,7 +14,10 @@
     <div class="grid-frame vertical">
       <div class="grid-content shrink" style="padding: 0;">
         <ul class="primary condense menu-bar">
-          <li><a><strong>Trekker</strong></a></li>
+          <li ui-sref-active="is-active"><a ui-sref="home"><strong>Trekker</strong></a></li>
+          <li ui-sref-active="is-active"><a ui-sref="add-trails">Add Trails</a></li>
+          <li ui-sref-active="is-active"><a ui-sref="about">About</a></li>
+          <li ui-sref-active="is-active"><a ui-sref="contact">Contact</a></li>
         </ul>
       </div>
       <div ui-view class="grid-content">
